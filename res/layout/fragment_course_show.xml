@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/antiquewhite"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="课堂信息"
+                android:textColor="@color/lightpink"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/course"
+                android:gravity="center"
+                android:text="  名称:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_name"
+                style="@style/courseShow"
+                android:text="安卓课程设计" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/teacher"
+                android:gravity="center"
+                android:text="  老师:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_teacher"
+                style="@style/courseShow"
+                android:text="小明" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/room"
+                android:gravity="center"
+                android:text="  教室:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_place"
+                style="@style/courseShow"
+                android:text="五教501" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/period"
+                android:gravity="center"
+                android:text="  周期:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_weeks"
+                style="@style/courseShow"
+                android:text="1-5周" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/week"
+                android:gravity="center"
+                android:text="  周数:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_week"
+                style="@style/courseShow"
+                android:editable="false"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/grade"
+                android:gravity="center"
+                android:text="  节数:"
+                android:textColor="#404040" />
+
+            <EditText
+                android:id="@+id/id_txt_jie"
+                style="@style/courseShow"
+                android:editable="false"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/delete_course"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="删除课程"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/save_course"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="保存修改"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/courseNoteList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/courseNoteList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

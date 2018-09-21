@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="随身课程表"
+        android:textColor="#B7945A"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/container_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:collapseColumns="2"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="用户名："
+                    android:textColor="#FAEBD7"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edit_userName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:background="@drawable/border_bg"
+                    android:hint="请输入用户名" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="密    码："
+                    android:textColor="#FAEBD7"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edit_passWord"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:background="@drawable/border_bg"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <CheckBox
+                android:id="@+id/cb_rememberPsw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRemeberPwd"
+                style="@style/login_item_bottom_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|left"
+                android:text="记住密码" />
+
+            <TextView
+                android:id="@+id/tvForgetPwd"
+                style="@style/login_item_bottom_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|right"
+                android:onClick="findPwd"
+                android:text="忘了密码" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/btn_login"
+            android:text="立即登录"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00ffffff"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/antiquewhite"
+        android:text="账号输入规则" />
+
+</RelativeLayout>

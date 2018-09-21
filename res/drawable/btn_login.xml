@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="false">
+        <shape >
+            <!-- 填充的实体颜色 -->
+            <solid android:color="#5FFB17"/>
+            <!-- 设置圆角 -->
+            <corners android:radius="10dp"/>
+            <!-- 设置描边颜色 -->
+            <stroke android:color="#5FFB17"/>
+        </shape>
+    </item>
+
+    <!-- 1.创建一个item项：表示鼠标按下时的样式 -->
+    <item android:state_pressed="true">
+        <shape >
+            <!-- 填充的实体颜色 -->
+            <solid android:color="#00FF00"/>
+            <!-- 设置圆角 -->
+            <corners android:radius="10dp"/>
+            <!-- 设置描边颜色 -->
+            <stroke android:color="#00FF00"/>
+        </shape>
+    </item>
+
+</selector>

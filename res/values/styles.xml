@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 课程表星期的样式  主要是为了设置字体大小  设置文本水平居中显示 -->
+    <style name="textStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 课程表按钮的样式 （可点击的） -->
+    <style name="btnCourseStyle">
+        <item name="android:background">@drawable/shape</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/sienna</item>
+    </style>
+
+    <!-- 课程表按钮的样式 （不可点击的） -->
+    <style name="btnCourseStyle2">
+        <item name="android:background">@drawable/shape2</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <!-- 进入课表详细信息，可编辑状态 -->
+    <style name="CourseDetail_addOrEdit">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- login界面底部忘记密码和注册的样式 -->
+    <style name="login_item_bottom_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 进入课表详细信息，可编辑状态 -->
+    <style name="courseShow">
+        <item name="android:layout_marginLeft">13dp</item>
+        <item name="android:layout_height">23dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/txt_border_bg</item>
+        <item name="android:textColor">#d5302d2d</item>
+    </style>
+
+</resources>
