@@ -24,33 +24,16 @@
 ## 登录界面
 <img src="https://i.imgur.com/aSakOx2.png" width="102"/>
 
-## 课程主界面
-<img src="https://i.imgur.com/Ev9KCG3.png" width="102"/>
+## 课程主界面（主界面、增加课程、查看课程）
+<img src="https://i.imgur.com/Ev9KCG3.png" width="102"/>  <img src="https://i.imgur.com/afhubTU.png" width="102"/>  <img src="https://i.imgur.com/zuDpmYa.png" width="102"/>
 
-### 增加课程（查看课程）
-<img src="https://i.imgur.com/afhubTU.png" width="102"/>
 
-### 查看课程
-<img src="https://i.imgur.com/zuDpmYa.png" width="102"/>
+## 我的界面（个人信息、修改学期）
 
-## 我的界面
+<img src="https://i.imgur.com/SNaFVtC.png" width="102"/>  <img src="https://i.imgur.com/TWEu0BL.png" width="102"/>
 
-### 个人信息
-<img src="https://i.imgur.com/SNaFVtC.png" width="102"/>
+## 笔记界面（所有笔记、添加笔记、查找笔记1、查找笔记2）
 
-### 修改学期
-<img src="https://i.imgur.com/TWEu0BL.png" width="102"/>
-
-##笔记界面
-
-### 所有笔记
-<img src="https://i.imgur.com/bpEiFhl.png" width="102"/>
-
-### 添加笔记
-<img src="https://i.imgur.com/KRo3z7Y.png" width="102"/>
-
-### 查找笔记1
-<img src="https://i.imgur.com/NPwA4gA.png" width="102"/>
-
-### 查找笔记2
-<img src="https://i.imgur.com/qVL8zxj.png" width="102"/>
+<img src="https://i.imgur.com/bpEiFhl.png" width="102"/>  <img src="https://i.imgur.com/KRo3z7Y.png" width="102"/>
+  <img src="https://i.imgur.com/NPwA4gA.png" width="102"/>
+  <img src="https://i.imgur.com/qVL8zxj.png" width="102"/>
