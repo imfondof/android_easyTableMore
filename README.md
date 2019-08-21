@@ -41,4 +41,4 @@
   
   ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/imfondof/easyTableMore.svg)](https://starchart.cc/imfondof/easyTableMore)
+[![Stargazers over time](https://starchart.cc/Imfondof/android_easyTableMore.svg)](https://starchart.cc/Imfondof/android_easyTableMore)
