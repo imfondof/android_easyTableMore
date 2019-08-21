@@ -37,3 +37,8 @@
 <img src="https://i.imgur.com/bpEiFhl.png" width="102"/>  <img src="https://i.imgur.com/KRo3z7Y.png" width="102"/>
   <img src="https://i.imgur.com/NPwA4gA.png" width="102"/>
   <img src="https://i.imgur.com/qVL8zxj.png" width="102"/>
+  
+  
+  ## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/imfondof/easyTableMore.svg)](https://starchart.cc/imfondof/easyTableMore)
